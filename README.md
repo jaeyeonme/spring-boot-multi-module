@@ -34,7 +34,7 @@ root (com.example)
 
 ## 프로젝트 빌드
 ```bash
-./gradlew :module-api:bootRun
+./gradlew :module-api:build
 ```
 
 <br>
@@ -46,7 +46,7 @@ root (com.example)
 
 <br>
 
-## 모듈의존
+## 모듈 간 의존성 흐름
 ```lua
 +----------------+
 |  module-api    |
